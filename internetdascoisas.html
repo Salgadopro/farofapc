@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FArofaPC</title>
+</head>
+
+<style>
+
+    
+
+    form {
+        background-image: linear-gradient(rgb(62, 62, 60),black,rgb(62, 62, 61));
+        font: normal 20px Arial;
+       
+        text-shadow: 1px 1px 1px rgb(187, 222, 16);
+    }
+    p2 {
+        font: normal 16px Arial;
+        text-align: center;
+
+        
+    }
+
+
+    h1 {
+        text-align: center;
+        text-shadow: 3px 3px 3px yellow;
+        background: rgb(58, 57, 57);
+        border-radius: 30%;
+        box-shadow: 2px 2px 2px rgb(202, 232, 9);
+    }
+
+
+    body {
+        font: normal 30px Arial;
+        color: rgb(248, 243, 243);
+        background: black;
+    }
+
+    div#area {
+        text-align: center;
+        color: beige;
+        background-image: linear-gradient(yellow,black,white);
+        width: 400px;
+        height: 400px;
+        line-height: 400px;
+        text-align: center;
+        box-shadow: 3px 1px 1px 1px rgb(204, 230, 12);
+        border-radius: 20px;
+        margin-left: 0px;
+        margin-top: 0px;
+        transition: .5s;
+
+        
+        
+            
+
+    }
+    div#area:hover{
+        background-image: radial-gradient(rgb(125, 125, 120),black,rgb(196, 234, 28));
+        color: beige;
+        
+    }
+    footer {
+        text-align: center;
+        text-shadow: 1px 1px 1px yellow;
+        font:normal 16px Arial;
+
+    }
+
+    div {
+    float:right;
+    }
+
+    
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+<body>
+
+    <h1>FAROFA PC</h1>
+    
+    <p style="text-align: center; font-size: 20px; " >Criado para reunir sites com utilidades diferentes e úteis quase nunca  sempre! </p> <br> <p2>&copy;FarofaPCSalt </p2>
+
+    
+    <form>
+        <p>Formulário Opcional !!</p>
+
+    
+
+ <br>
+
+        <div>
+
+            <label for="Etxt">Rascunho :</label>
+            <input type="text" name="Texto" id="Etxt">
+
+
+        </div>
+        
+        <div>
+          <label for="fname">First name: </label>
+          <input id="fname" type="text">
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input id="lname" type="text">
+        </div>
+        <div>
+            <label for="Ename">Seu Email: </label>
+            <input id="Ename" type="text">
+        </div>
+        <div>
+           <input id="submit" type="submit">
+        </div>
+      </form>
+      
+
+
+      <script>
+
+var form = document.querySelector('form');
+var fname = document.getElementById('fname');
+var Etxt =document.getElementById('Etxt')
+var lname = document.getElementById('lname');
+var Ename = document.getElementById('Ename')
+var submit = document.getElementById('submit');
+var para = document.querySelector('p');
+
+form.onsubmit = function(e) {
+  if (fname.value === '' || lname.value === '' || Ename.value === ''  ) {
+    e.preventDefault();
+    para.textContent = ' Opss !! Preencher o espaço Vazio...';} else ( Etxt.value !== '' ) 
+        e.preventDefault();
+        para.textContent= 'Não esqueca de preencher seu nome !'
+    }
+  
+
+      </script>
+      <form action="">
+
+        <div>
+            <label for="arquivo">Carregar Arquivo : </label>
+            <input type="file" name="arquivo" id="arquivo">
+        </div>
+    
+    
+    </form>
+
+      <br> <br> 
+
+
+   
+       
+
+    <a href="https://www.whois.com/whois" target="_blank"   > <div id="area"  >
+        Quem é ? IP
+    </div></a>
+    
+    <a href="https://www.meuenderecoip.com/"  target="_blank" > <div id="area"  >
+        Meu IP / hostnet
+
+    </div> </a>     
+    
+    <a href="https://www.meuenderecoip.com/localizar-ip.php"  target="_blank" ><div id="area" >
+        Localizar coordenadas IP
+    </div></a> 
+    
+    <a href="https://www.meuenderecoip.com/descobrir-ip-do-site.php"    target="_blank" ><div id="area"  >
+        IP de Site
+    </div></a>
+    
+    <a href="https://www.meuenderecoip.com/dns-reverso.php"  target="_blank" ><div id="area" >
+        DNS Reverso
+    </div></a>
+    
+    
+    <a href="http://nmichaels.org/rsa.py"  target="_blank" ><div id="area"  >
+        Criador/Key/RSA Cryptografia 
+    </div></a>
+    
+    
+    <a href="https://crackstation.net/"  target="_blank" ><div  id="area" >
+        Descrypto Hash
+    </div></a>
+    
+    <a href="https://www.canyouseeme.org/"  target="_blank" ><div id="area"  >
+        Check Ports
+    </div></a>
+    
+    
+    <a href="http://js-minify.online-domain-tools.com/" target="_blank" ><div id="area" >
+        Compactador de Cod JS
+    </div></a>
+    
+    <a href="http://html-minify.online-domain-tools.com/" target="_blank" ><div id="area"  >  
+        Compactador de Cod HTML
+    </div> </a>
+    
+    
+   <a href="http://css-minify.online-domain-tools.com/" target="_blank" > <div id="area" >
+        Compactador de Cod CSS
+    </div>  <a>
+    
+    
+    
+    <a href="https://nvd.nist.gov/" target="_blank"  ><div id="area" >
+        NVD/News Vunerabilidade
+    </div></a>
+    
+    <a href="https://privacycanada.net/strong-password-generator/"target="_blank" ><div id="area" >
+        Gerador de Salt/Senha forte
+    </div></a>
+
+    
+    
+    <a href="https://en.wikipedia.org/wiki/Comparison_of_content-control_software_and_providers" target="_blank" ><div id="area"  >
+        Soft/Controlador de conteúdo
+    </div> </a>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
